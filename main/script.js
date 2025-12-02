@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loop: true
   });
 
-  // Optionally: smooth scroll for anchor links (if not using bootstrap scrollspy)
+  
   document.querySelectorAll('a.nav-link').forEach(link => {
     link.addEventListener('click', (e) => {
       if (link.hash !== '') {
