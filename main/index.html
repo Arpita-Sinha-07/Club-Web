@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Web Dev Club</title>
+
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Google Font (change as you like) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- Sidebar / Top Navbar (collapsible) -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Web Dev Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Home Section -->
+  <header id="home" class="vh-100 d-flex align-items-center justify-content-center text-center text-white hero-bg">
+    <div class="container">
+      <h1 class="display-4">We are the Web Dev Club</h1>
+      <p id="typed-text" class="lead">Building · Learning · Creating</p>
+      <a href="#about" class="btn btn-primary btn-lg mt-4">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Us</h2>
+      <p>We’re a community of passionate web developers — from beginners to experts — collaborating to build real projects, learn together, and grow.</p>
+      <p>We host workshops, hackathons, open-source projects, mentoring sessions and more to help members build skills and real applications.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Projects & Portfolio</h2>
+      <div class="row g-4">
+        <!-- Example project card -->
+        <div class="col-sm-6 col-md-4">
+          <div class="card project-card h-100">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">A short description about what this project does or the technologies used.</p>
+              <a href="#" class="btn btn-outline-primary mt-auto">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat similar project cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Our Team</h2>
+      <div class="row g-4">
+        <!-- Example member card -->
+        <div class="col-sm-6 col-md-3 text-center">
+          <img src="member1.jpg" alt="Member 1" class="rounded-circle mb-3" width="140" height="140">
+          <h5>Member Name</h5>
+          <p>Role / Title</p>
+        </div>
+        <!-- Repeat for other members -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Join Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Get In Touch</h2>
+      <form action="#" method="post">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Your Email" required />
+          </div>
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Your Message / Query" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>&copy; 2025 Web Dev Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + Popper (for nav collapse / scrolling) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Typed.js for typing effect -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
