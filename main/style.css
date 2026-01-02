@@ -2,6 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  background-color: #111;
 }
 a {
   text-decoration: none;
@@ -9,6 +10,10 @@ a {
 h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
+
+
+
+
 
 /* Hero / header background */
 .hero-bg {
@@ -30,11 +35,25 @@ h1, h2, h3, h4, h5 {
 section {
   padding-top: 60px;
   padding-bottom: 60px;
+  color: antiquewhite;
 }
 
+.pro {
+  background-color: #000000;
+}
+
+.Us {
+  background: rgba(0, 0, 0, 0.6); 
+}
+
+
+.form-control {
+  background-color: rgb(53, 52, 52);
+}
 /* Project card hover effect  */
 .project-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: dimgrey;
 }
 .project-card:hover {
   transform: translateY(-5px);
