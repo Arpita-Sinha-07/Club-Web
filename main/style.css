@@ -13,9 +13,6 @@ h1, h2, h3, h4, h5 {
 
 
 
-
-
-/* Hero / header background */
 .hero-bg {
   background: url('hero-background.jpg') center/cover no-repeat;
   position: relative;
@@ -50,7 +47,9 @@ section {
 .form-control {
   background-color: rgb(53, 52, 52);
 }
-/* Project card hover effect  */
+
+
+
 .project-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: dimgrey;
