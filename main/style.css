@@ -40,7 +40,15 @@ section {
 }
 
 .Us {
+  
   background: rgba(0, 0, 0, 0.6); 
+}
+
+.formss{
+  /* justify-content: center;
+  align-items: center;
+   */
+  position: relative;
 }
 
 
